@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Token — NoWait Cuts</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">
+  <img src="assets/img/logo.svg" alt="logo"/>
+  <div class="brand">NoWait Cuts</div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="shops.html">Partner Shops</a>
+    <a href="book.html">Get Token</a>
+  </nav>
+</header>
+<main class="container">
+  <h2>Book Token / Reserve Slot</h2>
+  <p class="small">Pick a shop from the dropdown to open the booking form. For best experience, use the shop-specific link.</p>
+  <div class="card" style="margin-bottom:14px">
+    <label class="label" for="shopSelect">Choose shop</label>
+    <select id="shopSelect" class="btn" style="min-width:260px"></select>
+    <button id="openForm" class="btn primary">Open Booking Form</button>
+    <a id="whatsAppBtn" class="btn" target="_blank" rel="noopener">WhatsApp Shop</a>
+  </div>
+  <iframe class="form" id="formFrame" title="Booking Form"></iframe>
+</main>
+<footer class="footer">© <span id="yr"></span> NoWait Cuts</footer>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/app.js"></script>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>

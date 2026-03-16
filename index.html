@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NoWait Cuts — No-wait haircuts</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="theme-color" content="#6a5acd"/>
+</head>
+<body>
+<header class="header">
+  <img src="assets/img/logo.svg" alt="logo"/>
+  <div class="brand">NoWait Cuts</div>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="shops.html">Partner Shops</a>
+    <a href="book.html">Get Token</a>
+  </nav>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <h1>Haircuts without waiting</h1>
+      <p class="small">Get a live token or reserve a slot. Transparent pricing. WhatsApp updates.</p>
+      <div class="cta">
+        <a class="btn primary" href="book.html">Get Instant Token</a>
+        <a class="btn" href="shops.html">See Nearby Shops</a>
+      </div>
+      <p class="small" style="margin-top:12px">Tip: Add this to your home screen for an app-like experience.</p>
+    </div>
+    <div class="card">
+      <div class="label">How it works</div>
+      <ol class="small">
+        <li>Pick a shop → choose <strong>Instant Token</strong> or <strong>Reserve Slot</strong>.</li>
+        <li>Arrive just-in-time. Pay at shop via UPI.</li>
+        <li>Rate your experience. Save your favourite barber.</li>
+      </ol>
+      <div class="notice small">This is an MVP. Times are estimates; token numbers are assigned after you submit the form.</div>
+    </div>
+  </section>
+
+  <section style="margin-top:24px">
+    <div class="grid" id="shopGrid"></div>
+  </section>
+</main>
+
+<footer class="footer">© <span id="yr"></span> <span class="brand">NoWait Cuts</span>. All rights reserved.</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/app.js"></script>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>

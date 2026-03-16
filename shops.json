@@ -1,0 +1,59 @@
+[
+  {
+    "id": "raj-nagar",
+    "name": "Raj Nagar Barber Hub",
+    "address": "Raj Nagar, Ghaziabad",
+    "city": "Ghaziabad",
+    "services": [
+      {
+        "name": "Basic Cut",
+        "price": 200,
+        "duration_min": 18
+      },
+      {
+        "name": "Beard Trim",
+        "price": 120,
+        "duration_min": 10
+      }
+    ],
+    "whatsapp": "+91XXXXXXXXXX"
+  },
+  {
+    "id": "indirapuram",
+    "name": "Indirapuram Gents Salon",
+    "address": "Indirapuram, Ghaziabad",
+    "city": "Ghaziabad",
+    "services": [
+      {
+        "name": "Basic Cut",
+        "price": 220,
+        "duration_min": 20
+      },
+      {
+        "name": "Kids Cut",
+        "price": 180,
+        "duration_min": 15
+      }
+    ],
+    "whatsapp": "+91XXXXXXXXXX"
+  },
+  {
+    "id": "vaishali",
+    "name": "Vaishali Express Chair",
+    "address": "Vaishali Sector 4",
+    "city": "Ghaziabad",
+    "services": [
+      {
+        "name": "Basic Cut",
+        "price": 180,
+        "duration_min": 15
+      },
+      {
+        "name": "Beard Trim",
+        "price": 100,
+        "duration_min": 8
+      }
+    ],
+    "whatsapp": "+91XXXXXXXXXX"
+  }
+]

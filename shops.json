@@ -1,4 +1,22 @@
-[
+[ {
+    "id": "Vasundhara",
+    "name": "Vasundhara Express Chair",
+    "address": "Vasundhara Sector 4",
+    "city": "Ghaziabad",
+    "services": [
+      {
+        "name": "Basic Cut",
+        "price": 180,
+        "duration_min": 15
+      },
+      {
+        "name": "Beard Trim",
+        "price": 100,
+        "duration_min": 8
+      }
+    ],
+    "whatsapp": "+91XXXXXXXXXX"
+  }
   {
     "id": "raj-nagar",
     "name": "Raj Nagar Barber Hub",
@@ -6,14 +24,14 @@
     "city": "Ghaziabad",
     "services": [
       {
-        "name": "Basic Cut",
+        "name": "Basic Hair Cut",
         "price": 200,
-        "duration_min": 18
+        "duration_min": 25
       },
       {
         "name": "Beard Trim",
-        "price": 120,
-        "duration_min": 10
+        "price": 50,
+        "duration_min": 15
       }
     ],
     "whatsapp": "+91XXXXXXXXXX"
@@ -25,13 +43,13 @@
     "city": "Ghaziabad",
     "services": [
       {
-        "name": "Basic Cut",
-        "price": 220,
-        "duration_min": 20
+        "name": "Basic Hair Cut",
+        "price": 170,
+        "duration_min": 30
       },
       {
         "name": "Kids Cut",
-        "price": 180,
+        "price": 120,
         "duration_min": 15
       }
     ],

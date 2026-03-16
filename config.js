@@ -8,6 +8,6 @@ window.MVP_CONFIG = {
   FORM_URL: 'https://forms.gle/VYnzEoyygk5CDJUp6',
   // Map of shop_id -> prefilled Google Form URL (optional). Create via Form > More > Get pre-filled link
   SHOP_PREFILL: {
-    'Vasundhara': 'https://docs.google.com/forms/d/e/1FAIpQLSehXyutsZM0BBP7dmi3Z9wrkxvije8W9PdTdnsTTZlDg6M9SA/viewform?usp=pp_url&entry.367515090=Vasundhra'
+    'Vasundhara express chair': 'https://docs.google.com/forms/d/e/1FAIpQLSehXyutsZM0BBP7dmi3Z9wrkxvije8W9PdTdnsTTZlDg6M9SA/viewform?usp=pp_url&entry.367515090=Vasundhara+express+chair'
   }
 };

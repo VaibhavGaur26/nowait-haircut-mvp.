@@ -8,8 +8,6 @@ window.MVP_CONFIG = {
   FORM_URL: 'https://forms.gle/VYnzEoyygk5CDJUp6',
   // Map of shop_id -> prefilled Google Form URL (optional). Create via Form > More > Get pre-filled link
   SHOP_PREFILL: {
-    'raj-nagar': 'https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?usp=pp_url&entry.SHOP=Raj%20Nagar',
-    'indirapuram': 'https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?usp=pp_url&entry.SHOP=Indirapuram',
-    'vaishali': 'https://docs.google.com/forms/d/e/YOUR_FORM_ID/viewform?usp=pp_url&entry.SHOP=Vaishali'
+    'Vasundhara': 'https://docs.google.com/forms/d/e/1FAIpQLSehXyutsZM0BBP7dmi3Z9wrkxvije8W9PdTdnsTTZlDg6M9SA/viewform?usp=pp_url&entry.367515090=Vasundhra'
   }
 };
